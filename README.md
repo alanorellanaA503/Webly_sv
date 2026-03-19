@@ -43,16 +43,21 @@ weblysv/
 - Leaflet.js, Tailwind CSS (proyectos del portafolio)
 
 ## Paquetes disponibles
-Basico -> $100 
-Profesional -> $250 
-Tienda Online -> $400 
-Mantenimiento mensual -> $50 
+
+| Paquete | Precio |
+|---|---|
+| Basico | $100 |
+| Profesional | $250 |
+| Tienda Online | $400 |
+| Mantenimiento mensual | $50 |
 
 ## Como visualizar el proyecto
 
 No requiere instalacion. Solo clona el repositorio y abre cualquier archivo HTML en tu navegador.
 
+```bash
 git clone https://github.com/alanantonioorellanaarguera-sudo/weblysv.git
+```
 
 ## Contacto
 
