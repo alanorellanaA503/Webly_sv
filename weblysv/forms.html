@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Webly Sv</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+<body>
+<div class="container" style="margin-bottom: 2%; margin-top: 3%; background-color: white; padding: 4px; border-radius: 5px;">
+    <div class="row align-items-center">
+        <!-- Botón a la izquierda -->
+        <div class="col-md-1 text-start">
+            <a href="servicios.html">
+                <button type="button" class="btn-close" aria-label="Close"></button>
+            </a>
+        </div>
+
+        <!-- Título centrado -->
+        <div class="col-md-11 text-center">
+            <h1 class="title">Formulario de compra</h1>
+        </div>
+    </div>
+    </div>
+
+
+    <!--Apertura del formulario-->
+
+    <div class="container" style="margin-bottom: 2%; padding: 2%;">
+    <div class="row">
+        <div class="col-md-1"></div> <!-- Espacio lado izquierdo -->
+
+        <div class="col-md-10">
+            <!-- Recuadro blanco con sombra -->
+            <div style="background-color: white; padding: 30px; border-radius: 10px; ">
+                
+                <form method="post">
+                    <div class="mb-3">
+                        <label for="nombres" class="form-label">Nombres:</label>
+                        <input type="text" class="form-control" id="nombres" aria-describedby="name" placeholder="Ej. Ana" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="apellidos" class="form-label">Apellidos: </label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Ej. Martínez" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="dui" class="form-label">DUI: </label>
+                        <input type="text" class="form-control" id="carnet" placeholder="00000000-0" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="paquete" class="form-label">Paquete a seleccionar: </label>
+                        <select id="paquete" name="paquete" class="form-select" required>
+                            <option value="">Selecciona un paquete</option>
+                            <option value="basico">Paquete básico $100</option>
+                            <option value="profesional">Paquete profesional $250</option>
+                            <option value="tienda">Tienda online $400</option>
+                            <option value="mantenimiento">Mantenimiento mensual $50</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="pago">Método de pago:</label>
+                        <select id="pago" name="pago" class="form-select" required>
+                            <option value="">Selecciona un método de pago</option>
+                            <option value="tarjeta">Tarjeta de crédito/débito</option>
+                            <option value="transferencia">Transferencia bancaria</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                        <label class="form-check-label" for="exampleCheck1">Acepto las condiciones</label>
+                        <div id="emailHelp" class="form-text">Nos comprometemos a no compartir tu información con terceros</div>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="col-md-1"></div> <!-- Espacio lado derecho -->
+    </div>
+</div>
+
+
+<!--CONTENIDO DE EN MEDIO-->
+
+
+
+
+
+   <div class="container" style="margin: auto; padding: auto;"> <!--Contenedor del footer-->
+        <div class="row">
+            <div class="col-md-12" style="margin: 2%; padding: 2%;">
+
+              <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Webly Sv 2025</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/webly_sv/?utm_source=ig_web_button_share_sheet&igsh=MXRkNnh1MnEzbm1ieA%3D%3D#" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/people/Webly-El-Salvador/61574786935877/" aria-label="Facebook"><i class="fab fa-facebook-f" target="_blank"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://api.whatsapp.com/message/5SS26MIVPHL7G1?autoload=1&app_absent=0" aria-label="WhatsApp"><i class="fab fa-whatsapp" target="_blank"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="mailto:weblysv@gmail.com" aria-label="Email"><i class="fas fa-envelope" target="_blank"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Política Privacidad</a>
+                        <a class="link-dark text-decoration-none" href="#!">Términos de uso</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    
+</body>
+</html>
